@@ -1,0 +1,199 @@
+
+body {
+  background-color: black;
+  font-size: 15px;
+  font-family: "Shippori Mincho", serif;
+}
+
+
+
+/* HEADER */
+
+
+.navbar-dark {
+ background-color: black;
+ margin-bottom: 5px;
+
+}
+
+#header-nav {
+  max-width: 95%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+
+
+#logo-img {
+  background-image: url(../images/snakee.png);
+  width: 145px;
+  height: 110px;
+  background-repeat: no-repeat;
+  margin: 10px 15px 10px 10px;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  text-shadow: 20px 10px 10px #0502a0;
+}
+
+
+#collapsibleNavbar a {
+  font-size: 25px;
+  padding: 30px;
+  color: white;
+}
+
+#collapsibleNavbar a:hover {
+  color: #0502a0;
+}
+
+.navbar-toggler {
+  background-color: darkgoldenrod;
+  color: darkred;
+}  
+
+.navbar-toggler:hover {
+  background-color: #0502a0;
+}
+
+.nav-link i {
+  margin-right: 20px;
+} 
+
+
+/* END HEADER */
+
+
+
+
+/* Main body */
+
+#Main {
+  max-width: 95%;
+}
+
+.jumbotron {
+  box-shadow: 0 0 70px #0502a0;
+    border: 1px solid whitesmoke;
+  margin-bottom: 30px;}
+
+#menuphoto, #specials, #map {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid whitesmoke;
+}
+
+#menuphoto:hover, #specials:hover, #map:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+  }
+
+#menuphoto {
+  background: url(../images/Menu.png) no-repeat;
+  background-position: center;
+}
+
+#specials  {
+  background: url(../images/specials.png) no-repeat;
+  background-position: center;
+}
+
+#menuphoto span, #specials span, #map span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: fff;
+  background-color: #000;
+  opacity: .8;
+}
+
+#footer {
+  max-width: 95%;
+}
+
+.panel-footer {
+  margin-top: 20px;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #222;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#hours span, #address span {
+  font-size: 1.4em;
+}
+
+#comments {
+  font-style: italic;
+}
+
+#comments p:nth-child(2) {
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px)  {
+  .jumbotron {
+    height: 675px;
+    background: url(../images/food.png);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+  .jumbotron {
+    height: 675px;
+    background-image: url(../images/food2000.png);
+  }
+}
+
+    @media (min-width: 768px) and (max-width: 991px)  {
+  .jumbotron {
+    background-image: url(../images/food992.png);
+    height: 600px;
+  }
+}
+  
+
+@media (max-width: 450px)  {
+  h1 {
+    font-size: 35px;
+    
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
